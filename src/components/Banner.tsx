@@ -3,14 +3,14 @@ import Image from 'next/image';
 export default function Banner(){
     return(
         <div className={styles.banner}>
-            <Image src={'/img/cover.jpg'} 
+            <Image src={'/img/banner1.jpg'} 
                 alt = 'cover'
                 fill= { true }
                 objectFit='cover'/>
 
                 <div className={styles.bannerText}>
-                    <h1>Your Travel Partner</h1>
-                    <h3>Explore Your World with Us</h3>
+                    <h1>where every event finds its venue</h1>
+                    <h3>Book the perfect space for your wedding, conference, or special event.</h3>
                 </div>
                 
 
